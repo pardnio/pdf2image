@@ -1,0 +1,95 @@
+{
+  "home_title": {
+    "en": "PDF to Image and PNG JavaScript Library | pdf2image",
+    "zh": "PDF 轉圖片、PDF 轉 PNG 的 JavaScript 套件｜pdf2image"
+  },
+  "descriptions": {
+    "en": {
+      "home": "pardnchiu/pdf2image by Pardn Chiu is a JavaScript library for PDF to image conversion in the browser: PDF to PNG or WebP via pdf.js, progress bar, ZIP download.",
+      "getting-started": "Install pdf2image from npm or a CDN, pass a PDF ArrayBuffer, and convert your first PDF to images in the browser after the load event.",
+      "core-concepts": "What pdf2image injects into the page on load (pdf.js, JSZip, stylesheet), and why convert() must wait for the load event.",
+      "conversion": "How pdf2image convert() renders PDF pages: scale and pixel size, why type jpg yields PNG, result order, single-use ArrayBuffer, and errors.",
+      "zip-download": "How pdf2image download() bundles images into a ZIP with JSZip: the flow, yyyy-MM-DD hh:mm filename tokens, output names, and failures.",
+      "progress-overlay": "The pdf2image progress overlay: its DOM and data-percent attribute, conversion and compression progress, zh/en labels, and CSS.",
+      "architecture": "A one-diagram overview of pdf2image: load-time CDN injection, the pdf2image class, the progress overlay, and pdf.js and JSZip.",
+      "api-reference": "Every pdf2image constructor option (file, filename, scale, type) with defaults and the normalization rules for invalid values.",
+      "api-reference-methods": "The pdf2image instance API: convert(), download(), and the images getter, with resolve and reject values for each."
+    },
+    "zh": {
+      "home": "pardnchiu/pdf2image 是邱敬幃開發的 PDF 轉圖片 JavaScript 套件，在瀏覽器以 pdf.js 將 PDF 轉 PNG、WebP，附進度遮罩與 ZIP 下載。",
+      "getting-started": "從 npm 或 CDN 安裝 pdf2image，傳入 PDF 的 ArrayBuffer，在 load 事件後完成第一次 PDF 轉圖片。",
+      "core-concepts": "pdf2image 載入時注入哪些相依（pdf.js、JSZip、樣式表），以及 convert() 為何要等 load 事件。",
+      "conversion": "pdf2image convert() 的渲染流程：scale 與尺寸、jpg 為何輸出 PNG、結果順序、ArrayBuffer 單次使用與錯誤。",
+      "zip-download": "pdf2image download() 如何以 JSZip 打包 ZIP：流程、yyyy-MM-DD hh:mm 檔名記號、產出檔名與失敗行為。",
+      "progress-overlay": "pdf2image 進度遮罩：DOM 與 data-percent、轉換與壓縮進度計算、中英文字切換與樣式。",
+      "architecture": "以一張圖概覽 pdf2image：載入時的 CDN 注入、pdf2image 類別、進度遮罩，以及 pdf.js 與 JSZip。",
+      "api-reference": "pdf2image 建構參數 file、filename、scale、type 的預設值，以及無效值的正規化規則。",
+      "api-reference-methods": "pdf2image 實例 API：convert()、download() 與 images getter，以及各自的 resolve 與 reject 值。"
+    }
+  },
+  "keywords": {
+    "en": {
+      "home": "pdf2image, pdf to image, pdf to png, pdf to images, convert pdf to image, pdf to image converter, javascript pdf, pdf.js",
+      "getting-started": "pdf2image, install, npm, cdn, getting started, pdf to image",
+      "core-concepts": "pdf2image, pdf.js, jszip, cdn, load event",
+      "conversion": "pdf2image, convert pdf to image, pdf to png, pdf.js render, canvas toDataURL, scale, webp",
+      "zip-download": "pdf2image, download, zip, jszip, filename template",
+      "progress-overlay": "pdf2image, progress overlay, loading, data-percent, css",
+      "architecture": "pdf2image, architecture, overview",
+      "api-reference": "pdf2image, api reference, constructor, options",
+      "api-reference-methods": "pdf2image, api reference, convert, download, images"
+    },
+    "zh": {
+      "home": "pdf2image, pdf轉圖片, pdf轉png, pdf轉圖檔, PDF 轉圖片 JavaScript, 瀏覽器 PDF 轉圖片",
+      "getting-started": "pdf2image, 安裝, npm, CDN, 快速開始, PDF 轉圖片",
+      "core-concepts": "pdf2image, pdf.js, JSZip, CDN, load 事件",
+      "conversion": "pdf2image, pdf轉圖片, pdf轉png, pdf.js 渲染, canvas, scale, WebP",
+      "zip-download": "pdf2image, download, ZIP 下載, JSZip, 檔名樣板",
+      "progress-overlay": "pdf2image, 進度遮罩, loading, data-percent, CSS",
+      "architecture": "pdf2image, 架構, 概覽",
+      "api-reference": "pdf2image, API 參考, 建構參數",
+      "api-reference-methods": "pdf2image, API 參考, convert, download, images"
+    }
+  },
+  "brand_keywords": [
+    "邱敬幃",
+    "Pardn Chiu",
+    "pardnchiu"
+  ],
+  "person": {
+    "id": "https://pardn.io/#pardnchiu",
+    "name": "Pardn Chiu",
+    "alt_names": [
+      "邱敬幃",
+      "Chiu Ching-Wei",
+      "pardnchiu"
+    ],
+    "same_as": [
+      "https://pardn.io/",
+      "https://www.linkedin.com/in/pardnchiu",
+      "https://github.com/pardnchiu",
+      "https://dev.to/pardnchiu",
+      "https://x.com/pardnchiu"
+    ]
+  },
+  "organization": {
+    "id": "https://pardn.io/#organization",
+    "url": "https://pardn.io/",
+    "name": "Pardn Co., Ltd",
+    "name_zh": "帕登國際有限公司",
+    "same_as": [
+      "https://github.com/pardnio"
+    ]
+  },
+  "tagline": "Taiwan · Infrastructure Engineering",
+  "og_image": "https://pardn.io/logo.jpg",
+  "favicon": "/favicon.png",
+  "x_default": "",
+  "ai_usage": {
+    "train": "y",
+    "input": "y",
+    "search": "y"
+  },
+  "programming_language": "JavaScript",
+  "license_url": "https://opensource.org/licenses/MIT"
+}
